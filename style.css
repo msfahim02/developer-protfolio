@@ -4,7 +4,7 @@ margin: 0%;
 
  }
 h1{
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .name-color{
@@ -12,6 +12,7 @@ h1{
 }
 section{
 display: flex;
+margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -27,11 +28,16 @@ display: flex;
     text-decoration: none;
     background-image: linear-gradient( rgb(241, 52, 19), rgb(242, 182, 71));
     color: rgb(242, 240, 238);
-    padding: 10px 30px;
+    padding: 5px 30px;
     border-radius: 5px;
     font-weight: 800;
 }
 .banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
